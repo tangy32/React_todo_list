@@ -1,8 +1,48 @@
-.App {
-  text-align: center;
+.app {
+  background-color: black;
+  padding: 30px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
-.App-logo {
+.todo-list {
+  width: 600px;
+}
+
+.todo {
+  background-color: #333;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+  padding: 5px 10px;
+  color: white;
+  height: 48px;
+  margin-top: 16px;
+  display: flex;
+  border-radius: 3px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.todo:hover .remove {
+  display: block;
+}
+
+
+.remove {
+  display: none;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +75,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
